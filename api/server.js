@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 //Specify database URL and port to listen to (CHANGE TO ENV VARIABLES LATER!!)
-const mongoURL = "mongodb://localhost:27017/mern-todo";
+const mongoURL = "mongodb+srv://Kristian:Denmark123@stuck-overflow.h3djc.mongodb.net/mern-todo?retryWrites=true&w=majority";
 const port = 3001;
 
 //Connect to our database 
