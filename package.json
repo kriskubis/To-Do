@@ -1,6 +1,9 @@
 {
   "name": "mern-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.14.0"
+  },
   "scripts": {
     "start": "cd server && npm start",
     "react-dev": "cd client && npm start",
